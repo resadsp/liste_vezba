@@ -42,8 +42,9 @@ stavka = l4.pop(0)
 print("Prva stavka koju izbacujemo:",stavka)
 print("Lista bez prve stavke:",l4)
 
-niz = [45,7,6,8,1,23,88,101]
+niz = [45,7,6,8,1,23,88,101,88,89,88]
 d = len(niz)
+e = niz.count(88)
 for i in range(0,d-1):
     for j in range(i+1, d):
         if niz[i]>niz[j]:
@@ -53,7 +54,4 @@ for i in range(0,d-1):
 print(niz)
 niz.sort(reverse=True)
 print(niz)
-
-
-
-
+print(e)

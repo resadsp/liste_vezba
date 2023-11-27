@@ -1,4 +1,5 @@
 #ZADATAK
+niz_artikala = []
 while True:
     print(" ")
     print("""--------MOJA TRGOVINA--------
@@ -12,7 +13,7 @@ while True:
 
     
     if unos.strip() == "1":
-        niz_artikala = []
+        
         while True:
             print("------Unesi podatke ili pritisni space za prekid------")
             naziv = input("Unesite naziv artikla: ")

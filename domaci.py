@@ -1,5 +1,6 @@
 # ZADATAK [1/2] I ZADATAK [2/2] SA PREZENTACIJE PPF_5.pdf
 print(" ")
+niz_automobili = []
 while True:
     print(" ")
     print("""--------MENI AUTOMOBIL-------
@@ -11,7 +12,7 @@ while True:
     unos = input("IZABERITE JEDNU OD OPCIJA: ") #korisnik unosi zeljenu opciju od ponudjenih
     
     if unos.strip() == "1": #ukoliko je izabrao opciju 1, unosi trazene podatke sve dok ne prekine unos sa pritiskom na taster space
-        niz_automobili = []
+       
         while True:
             print("------Unesi podatke ili pritisni space za prekid------")
             marka = input("Unesite marku automobila: ")

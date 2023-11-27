@@ -55,3 +55,6 @@ print(niz)
 niz.sort(reverse=True)
 print(niz)
 print(e)
+neki = ["Plata","asocijacija", "Resetka", "audicija", "Balon"]
+neki.sort(key=str.lower)
+print(neki)
